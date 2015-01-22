@@ -1,3 +1,4 @@
+# this is the game glass
 require_relative 'guess_parser'
 class Game
   TotalGuesses = 10
@@ -18,7 +19,7 @@ class Game
   end
 
   def won?
-    false
+    true
   end
 
 end
